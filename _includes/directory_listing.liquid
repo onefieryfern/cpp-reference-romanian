@@ -1,17 +1,27 @@
 {% for site_page in site.pages %}
-{% unless site_page.url == page.url %}
+  {% unless site_page.url == page.url %}
 
-{% if site_page.dir == page.dir %}
+    {% comment %}
+      List pages in current folder, except for the index in "/".
+    {% endcomment %}
 
-[{{site_page.title}}]({{ site_page.url | absolute_url }}) <br>
+    {% unless page.dir == "/" %}
+      {% if site_page.dir == page.dir %}
 
-{% endif %}
+[{{ site_page.title }}]({{ site_page.url | absolute_url }}) <br>
 
-{% if site_page.dir contains page.dir and site_page.name == "index.md" %}
+      {% endif %}
+    {% endunless %}
 
-[{{site_page.title}}]({{ site_page.url | absolute_url }}) <br>
+    {% comment %}
+      List folders in current folder.
+    {% endcomment %}
 
-{% endif %}
+    {% if site_page.dir contains page.dir and site_page.name == "index.md" %}
 
-{% endunless %}
+[{{ site_page.title }}]({{ site_page.url | absolute_url }}) <br>
+
+    {% endif %}
+
+  {% endunless %}
 {% endfor %}
