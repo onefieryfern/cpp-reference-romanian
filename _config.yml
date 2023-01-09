@@ -34,6 +34,7 @@ baseurl: /cpp-reference-romanian/
 remote_theme: https://github.com/thefirefourteen/jekyll-theme-minima
 plugins:
   - jekyll-remote-theme
+  - jekyll-feed
 
 minima:
   # Generate social links in footer.
