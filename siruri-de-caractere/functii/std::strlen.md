@@ -11,9 +11,9 @@ Returnează lungimea șirului de caractere dat, adică numărul de caractere din
 
 # Parametri
 
-Parametru | Descriere
----: | :---
-**str** | pointer către șirul de caractere nul-terminat de examinat
+| Parametru | Descriere                                                 |
+| --------: | :-------------------------------------------------------- |
+|   **str** | pointer către șirul de caractere nul-terminat de examinat |
 
 # Valuare returnată
 

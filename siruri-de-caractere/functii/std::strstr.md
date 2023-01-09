@@ -12,10 +12,10 @@ Găsește prima apariție a șirului de caractere `needle` (traducere: ac) în �
 
 # Parametri
 
-Parametru | Descriere
----: | :---
-**haystack** | pointer către șirul de caractere nul-terminat de examinat
-**needle**   | pointer către șirul de caractere nul-terminat de căutat
+|    Parametru | Descriere                                                 |
+| -----------: | :-------------------------------------------------------- |
+| **haystack** | pointer către șirul de caractere nul-terminat de examinat |
+|   **needle** | pointer către șirul de caractere nul-terminat de căutat   |
 
 # Valuare returnată
 

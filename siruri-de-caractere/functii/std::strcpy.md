@@ -12,10 +12,10 @@ Comportamentul este nedefinit dacă șirul `dest` nu este suficient de mare. Com
 
 # Parametri
 
-Parametru | Descriere
----: | :---
-**dest** | 	pointer către șirul de caractere de scris în
-**src**  | 	pointer către șirul de caractere nul-terminat de copiat
+| Parametru | Descriere                                               |
+| --------: | :------------------------------------------------------ |
+|  **dest** | pointer către șirul de caractere de scris în            |
+|   **src** | pointer către șirul de caractere nul-terminat de copiat |
 
 # Valuare returnată
 
