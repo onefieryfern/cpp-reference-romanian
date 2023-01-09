@@ -1,5 +1,5 @@
 ---
-title: strstr
+title: std::strstr
 ---
 
 Definit în headerul `<cstring>` astfel:

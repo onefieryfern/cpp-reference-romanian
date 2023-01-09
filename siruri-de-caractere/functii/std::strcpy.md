@@ -1,5 +1,5 @@
 ---
-title: strcpy
+title: std::strcpy
 ---
 
 Definit în headerul `<cstring>` astfel:
