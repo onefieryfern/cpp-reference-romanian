@@ -30,10 +30,8 @@ url: https://thefirefourteen.github.io
 baseurl: /cpp-reference-romanian/
 
 # Build settings
-# theme: minima
-remote_theme: https://github.com/thefirefourteen/jekyll-theme-minima
+theme: minima
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
 
 minima:
