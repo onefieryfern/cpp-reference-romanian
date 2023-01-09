@@ -42,4 +42,4 @@ Output:
 46
 ```
 
-(Tradus și adaptat după [cppreference.com](https://en.cppreference.com/w/cpp/string/byte/strcpy) - CC-BY-SA-3.0)
+(Tradus și adaptat după [cppreference.com](https://en.cppreference.com/w/cpp/string/byte/strlen) - CC-BY-SA-3.0)
