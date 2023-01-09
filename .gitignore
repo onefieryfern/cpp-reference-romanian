@@ -7,3 +7,6 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+# Visual Studio Code or VSCodium
+.vscode
