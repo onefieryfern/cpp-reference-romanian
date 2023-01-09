@@ -1,1 +1,1 @@
-{% include dir_listing.md %}
+{% include directory_listing.liquid %}
