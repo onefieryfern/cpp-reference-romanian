@@ -7,7 +7,7 @@ Definit în headerul `<cstring>` astfel:
 char *strcat( char *dest, const char *src );
 {% endhighlight %}
 
-Adaugă o copie a șirului de caractere care este arătat de către `src` la sfârșitul șirului de caractere arătat de către `dest`. Caracterul `src[0]` înlocuiește terminatorul nul de la sfârșitul lui `dest`. Șirul de caractere ce rezultă este nul-terminat. <br>
+Adaugă o copie a șirului de caractere care este arătat de către pointerul `src` la sfârșitul șirului de caractere arătat de către pointerul `dest`. Caracterul `src[0]` înlocuiește terminatorul nul de la sfârșitul lui `dest`. Șirul de caractere ce rezultă este nul-terminat. <br>
 Comportamentul este nedefinit dacă șirul destinație nu este suficient de mare simultan pentru conținutul lui `src`, conținutui lui `dest` și pentru terminatorul nul. <br>
 Comportamentul este nedefinit dacă șirurile se suprapun.
 

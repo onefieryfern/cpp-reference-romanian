@@ -7,7 +7,7 @@ Definit în headerul `<cstring>` astfel:
 char* strcpy( char* dest, const char* src );
 {% endhighlight %}
 
-Copiază șirul de caractere spre care arată `src`, inclusiv terminatorul nul, la șirul de caractere al cărui prim element este arătat de către `dest`. <br>
+Copiază șirul de caractere spre care arată pointerul `src`, inclusiv terminatorul nul, la șirul de caractere al cărui prim element este arătat de către pointerul `dest`. <br>
 Comportamentul este nedefinit dacă șirul `dest` nu este suficient de mare. Comportamentul este nedefinit dacă șirurile se suprapun.
 
 # Parametri

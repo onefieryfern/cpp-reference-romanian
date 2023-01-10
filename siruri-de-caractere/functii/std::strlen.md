@@ -7,7 +7,7 @@ Definit în headerul `<cstring>` astfel:
 std::size_t strlen( const char* str );
 {% endhighlight %}
 
-Returnează lungimea șirului de caractere dat, adică numărul de caractere dintr-un șir de caractere al cărei prim element este arătat de către `str` până la și fără a include primul caracter nul. Comportamentul este nedefinit dacă nu există nici un caracter nul în șirul de caractere arătat de către `str`.
+Returnează lungimea șirului de caractere dat, adică numărul de caractere dintr-un șir de caractere al cărei prim element este arătat de către pointerul `str` până la și fără a include primul caracter nul. Comportamentul este nedefinit dacă nu există nici un caracter nul în șirul de caractere arătat de către pointerul `str`.
 
 # Parametri
 
